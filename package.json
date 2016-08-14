@@ -4,6 +4,7 @@
   "description": "Video catalogue application that lists TV Show information read from a JSON datasource.",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Damian McDonald",

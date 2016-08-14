@@ -1,0 +1,4 @@
+:source-highlighter: coderay
+:data-uri:
+
+`vid-cat` is a simple video catalogue application that displays TV Show data sourced from a JSON file in an isotope grid.
