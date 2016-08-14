@@ -1,0 +1,3 @@
+# The following folders and files should not be tracked by git for this project
+node_modules/
+Procfile
