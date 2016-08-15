@@ -11,9 +11,10 @@
   padding-bottom: 5px;
 }
 
-#toast-container {
-  bottom: auto !important;
-  left: auto !important;
-  top: 0%;
-  right:0%;  
+a.back-to-top {
+	display: none;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
 }

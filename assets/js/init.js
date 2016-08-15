@@ -2,6 +2,7 @@
 var $grid = $('.grid');
 var QUOTES_FREQUENCY_MS = 10000;
 var HIDDEN_TAGS = ['Recommended', 'British'];
+var MAX_SCROLLABLE = 300;
 
 $( document ).ready(function() {
 	
@@ -21,6 +22,24 @@ $( document ).ready(function() {
 		var filterValue = this.value;
 		$grid.isotope({ filter: filterValue });
 	});
+    
+    // add scroll logic so that when the screen has been scrolled past
+    // MAX_SCROLLABLE we can show a 'back to top' button
+    $(window).scroll(function() {
+        if ( $(window).scrollTop() > MAX_SCROLLABLE ) {
+            $('a.back-to-top').show();
+        } else {
+            $('a.back-to-top').hide();
+        }   
+    });
+    
+    // animate the back-to-top effect
+    $('a.back-to-top').click(function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 700);
+        return false;
+    });
 
 });
 

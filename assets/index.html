@@ -21,14 +21,16 @@
 	   <nav>
 	    <div style="background-color: #0277bd;" class="nav-wrapper">
 			 <div class="container">
-			  <div id="quotes-div"  style="display:none;">
+                <div class="hide-on-small-only">
+			     <div id="quotes-div"  style="display:none;">
 				  <div class="row valign-wrapper">
-            <img id="quote-img" src="" alt="" class="circle responsive-img">
-            <span class="white-text" style="padding-left: 10px;">
-                <span id="quote-name"></span> says: &quot;<span id="quote"></span>&quot;
-            </span>
-	        </div> <!-- /row -->
-			  </div> <!-- /quotes-div --> 
+                    <img id="quote-img" src="" alt="" class="circle responsive-img">
+                    <span class="white-text" style="padding-left: 10px;">
+                        <span id="quote-name"></span> says: &quot;<span id="quote"></span>&quot;
+                    </span>
+	               </div> <!-- /row -->
+			     </div> <!-- /quotes-div --> 
+            </div> <!-- hide-on-small-only -->    
 	     </div> <!-- /container -->
 	    </div> <!-- /nav-wrapper -->
 	   </nav>
@@ -63,6 +65,10 @@
   	</div> <!-- /container -->          
   </div>
 
+    <div class="hide-on-small-only">
+        <a href="#" class="back-to-top btn-floating btn-large blue"><i class="material-icons">navigation</i></a>
+    </div>
+    
 	<script type="text/javascript" src="js/data.js"></script>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="js/materialize.min.js"></script>
