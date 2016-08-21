@@ -40,7 +40,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "Ray Donovan, a professional 'fixer' for the rich and famous in LA, can make anyone's problems disappear except those created by his own family.",
 		"seasons": "4 (ongoing)",
 		"uri": "http://www.imdb.com/title/tt2249007/",
-		"disk": "1"
+		"disk": "2"
 	},
 	{
 		"score": 9,
@@ -68,7 +68,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "Explorer Sir Malcolm Murray, American gunslinger Ethan Chandler, scientist Victor Frankenstein and medium Vanessa Ives unite to combat supernatural threats in Victorian London.",
 		"seasons": "3",
 		"uri": "http://www.imdb.com/title/tt2628232/",
-		"disk": "1"
+		"disk": "2"
 	},
 	{
 		"score": 9,
@@ -98,7 +98,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "Sheriff Deputy Rick Grimes leads a group of survivors in a world overrun by the walking dead. Fighting the dead, fearing the living.",
 		"seasons": "7",
 		"uri": "http://www.imdb.com/title/tt1520211/",
-		"disk": "1"
+		"disk": "2"
 	},
 	{
 		"score": 7,
@@ -138,7 +138,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "Explores the early relationship between the renowned psychiatrist and his patient, a young FBI criminal profiler, who is haunted by his ability to empathize with serial killers.",
 		"seasons": "3",
 		"uri": "http://www.imdb.com/title/tt2243973/",
-		"disk": "1"
+		"disk": "2"
 	},
 	{
 		"score": 7,
@@ -167,7 +167,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "A brilliant young couple inherit a farm and are determined to start a new life together. But their presence in this isolated corner of England starts to unleash supernatural phenomena.",
 		"seasons": "1",
 		"uri": "http://www.imdb.com/title/tt4928166/",
-		"disk": "1"
+		"disk": "TBA"
 	},
 	{
 		"score": 6,
@@ -195,7 +195,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "In a world replete with greed, betrayal, sexual intrigue and rivalry, 'Marco Polo' is based on the famed explorer's adventures in Kublai Khan's court in 13th century Mongolia.",
 		"seasons": "1",
 		"uri": "http://www.imdb.com/title/tt2189461/",
-		"disk": "1"
+		"disk": "2"
 	},
 	{
 		"score": 8,
@@ -238,7 +238,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "A television anthology series that shows the dark sscoree of life and technology.",
 		"seasons": "3",
 		"uri": "http://www.imdb.com/title/tt2085059/",
-		"disk": "1"
+		"disk": "2"
 	},
 	{
 		"score": 6,
@@ -252,7 +252,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "Derek is a loyal nursing home care assistant who sees only the good in his quirky co-workers as they struggle against prejudice and shrinking budgets to care for their elderly resscoreents.",
 		"seasons": "2",
 		"uri": "http://www.imdb.com/title/tt2616280/",
-		"disk": "1"
+		"disk": "2"
 	},
 	{
 		"score": 5,
@@ -281,7 +281,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "Andy Millman is an actor with ambition and a script. Reduced to working as an extra with a useless agent, Andy's attempts to boost his career invariably end in failure and embarrassment.",
 		"seasons": "Mini-Series",
 		"uri": "http://www.imdb.com/title/tt0445114/",
-		"disk": "1"
+		"disk": "TBA"
 	},
 	{
 		"score": 1,
@@ -294,7 +294,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "What dscore the world look like as it was transforming into the horrifying apocalypse depicted in The Walking Dead (2010)? This spin-off follows new characters as they face the beginning of the end of the world.",
 		"seasons": "2",
 		"uri": "http://www.imdb.com/title/tt3743822/",
-		"disk": "1"
+		"disk": "TBA"
 	},
 	{
 		"score": 5,
@@ -308,7 +308,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "In a parallel present where the latest must-have gadget for any busy family is a 'Synth' - a highly-developed robotic servant that's so similar to a real human it's transforming the way we live.",
 		"seasons": "1",
 		"uri": "http://www.imdb.com/title/tt4122068/",
-		"disk": "1"
+		"disk": "2"
 	},
 	{
 		"score": 3,
@@ -322,7 +322,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "The show centers on Warwick Davis in his day-to-day life, complete with the frustrations he faces.",
 		"seasons": "1",
 		"uri": "http://www.imdb.com/title/tt1641247/",
-		"disk": "1"
+		"disk": "TBA"
 	},
 	{
 		"score": 6,
@@ -337,7 +337,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "John River is a brilliant police inspector whose genius lies sscoree-by-sscoree with the fragility of his mind. He is a man haunted by the murder victims whose cases he must lay to rest.",
 		"seasons": "1",
 		"uri": "http://www.imdb.com/title/tt4258440/",
-		"disk": "1"
+		"disk": "TBA"
 	},
 	{
 		"score": 8,
@@ -382,7 +382,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "The story of an office that faces closure when the company decscorees to downsize its branches. A documentary film crew follow staff and the manager Brent as they continue their daily lives.",
 		"seasons": "2",
 		"uri": "http://www.imdb.com/title/tt0290978/",
-		"disk": "1"
+		"disk": "TBA"
 	},
 	{
 		"score": 4,
@@ -422,7 +422,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "A high school teacher travels back in time to prevent John F. Kennedy's assassination.",
 		"seasons": "Mini-Series",
 		"uri": "http://www.imdb.com/title/tt2879552/",
-		"disk": "1"
+		"disk": "2"
 	},
 	{
 		"score": 9,
@@ -449,7 +449,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "Matt Murdock, with his other senses superhumanly enhanced, fights crime as a blind lawyer by day, and vigilante by night.",
 		"seasons": "2",
 		"uri": "http://www.imdb.com/title/tt3322312/",
-		"disk": "1"
+		"disk": "TBA"
 	},
 	{
 		"score": 6,
@@ -462,7 +462,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "A former superhero decscorees to reboot her life by becoming a private investigator.",
 		"seasons": "1",
 		"uri": "http://www.imdb.com/title/tt2357547/",
-		"disk": "1"
+		"disk": "TBA"
 	},
 	{
 		"score": 1,
@@ -475,7 +475,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "ESPN Films' 30 for 30 is an unprecedented documentary series featuring today's finest storytellers from insscoree and outsscoree of the sports world.",
 		"seasons": "1",
 		"uri": "http://www.imdb.com/title/tt1408430/",
-		"disk": "1"
+		"disk": "TBA"
 	},
 	{
 		"score": 4,
@@ -488,7 +488,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "A small town in Kansas is literally left in the dark after seeing a mushroom cloud over near-by Denver, Colorado. The townspeople struggle to find answers about the blast and solutions on how to survive.",
 		"seasons": "2",
 		"uri": "http://www.imdb.com/title/tt0805663/",
-		"disk": "1"
+		"disk": "TBA"
 	},
 	{
 		"score": 5,
@@ -502,7 +502,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "Story of a chance romance between two people from very different worlds, one from the headquarters of the Secret Intelligence Service, the other from a world of clubbing and youthful excess.",
 		"seasons": "1",
 		"uri": "http://www.imdb.com/title/tt4108134/",
-		"disk": "1"
+		"disk": "TBA"
 	},
 	{
 		"score": 8,
@@ -531,7 +531,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "The night manager of a Cairo hotel is recruited to infiltrate an arms dealer's inner circle.",
 		"seasons": "Mini-Series",
 		"uri": "http://www.imdb.com/title/tt1399664/",
-		"disk": "1"
+		"disk": "2"
 	},
 	{
 		"score": 8,
@@ -560,7 +560,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "A man who converts to a controversial following suffers from a crisis of faith.",
 		"seasons": "1",
 		"uri": "http://www.imdb.com/title/tt4789576/",
-		"disk": "1"
+		"disk": "TBA"
 	},
 	{
 		"score": 7,
@@ -575,7 +575,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "Ewan McGregor narrates a dramatic portrait of his homeland's wildlife. With spectacular photography and incredible behaviour, the series showcases the Highlands as never before.",
 		"seasons": "Mini-Series",
 		"uri": "http://www.bbc.co.uk/programmes/p03pjc9p",
-		"disk": "1"
+		"disk": "2"
 	},
 	{
 		"score": 1,
@@ -588,7 +588,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "Chronicles liberal ex-hippies Steven and Elyse Keaton, their conservative son Alex, daughters Mallory and Jennifer, and later, youngest child Andrew.",
 		"seasons": "7",
 		"uri": "http://www.imdb.com/title/tt0083413/",
-		"disk": "1"
+		"disk": "TBA"
 	},
 	{
 		"score": 1,
@@ -603,7 +603,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "The adventures of the last human alive and his friends, stranded three million years into deep space on the mining ship Red Dwarf.",
 		"seasons": "10",
 		"uri": "http://www.imdb.com/title/tt1999718/",
-		"disk": "1"
+		"disk": "TBA"
 	},
 	{
 		"score": 1,
@@ -618,7 +618,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "Hotel owner Basil Fawlty's incompetence, short fuse, and arrogance form a combination that ensures accidents and trouble are never far away.",
 		"seasons": "2",
 		"uri": "http://www.imdb.com/title/tt0072500/",
-		"disk": "1"
+		"disk": "TBA"
 	},
 	{
 		"score": 1,
@@ -633,7 +633,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "In the Middle Ages, Prince Edmund the Black Adder constantly schemes and endeavors to seize the crown from his father and brother.",
 		"seasons": "4",
 		"uri": "http://www.imdb.com/title/tt0084988/",
-		"disk": "1"
+		"disk": "TBA"
 	},
 	{
 		"score": 9,
@@ -648,7 +648,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "While a civil war brews between several noble families in Westeros, the children of the former rulers of the land attempt to rise up to power while a forgotten race, bent on destruction, plans to return.",
 		"seasons": "6",
 		"uri": "http://www.imdb.com/title/tt0944947/",
-		"disk": "1"
+		"disk": "TBA"
 	},
 	{
 		"score": 7,
@@ -692,7 +692,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "Documentary examining the vibrant societies of ancient Greece that have had a profound impact on the modern world.",
 		"seasons": "Mini-Series",
 		"uri": "http://www.bbc.co.uk/history/ancient/greeks/",
-		"disk": "1"
+		"disk": "2"
 	},
 	{
 		"score": 8,
@@ -721,7 +721,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "Professor Brian Cox combines some of the most spectacular sights on Earth with our deepest understanding of the universe to reveal how the planet's beauty is created by just a handful of forces.",
 		"seasons": "Mini-Series",
 		"uri": "http://www.imdb.com/title/tt5907228/",
-		"disk": "1"
+		"disk": "TBA"
 	},
 	{
 		"score": 1,
@@ -736,7 +736,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "UK Archaeologist and historian Neil Oliver arrives with his team to film the vast and spectacular coastline of Australia. It is the largest expedition the Coast team has undertaken.",
 		"seasons": "Mini-Series",
 		"uri": "http://www.imdb.com/title/tt2641254/",
-		"disk": "1"
+		"disk": "TBA"
 	},
 	{
 		"score": 1,
@@ -750,7 +750,7 @@ var TV_SHOW_DATA = [
 		"synopsis": "Archaeologist Dr Jago Cooper travels along the 1,400 mile coastline of Northwest America to explore how local tribes understanding of their environment allowed them to develop a resilient culture.",
 		"seasons": "Mini-Series",
 		"uri": "http://www.imdb.com/title/tt5941760/",
-		"disk": "1"
+		"disk": "TBA"
 	}
 ];
 
@@ -761,9 +761,54 @@ var QUOTES_DATA = [
 		"quote": "You know, sometimes I amaze even myself."
 	},
 	{
+		"quoter": "Han-Solo",
+		"image": "han-solo-icon.png",
+		"quote": "Great, kid. Don't get cocky."
+	},
+	{
+		"quoter": "Han-Solo",
+		"image": "han-solo-icon.png",
+		"quote": "Never tell me the odds!"
+	},
+	{
+		"quoter": "Han-Solo",
+		"image": "han-solo-icon.png",
+		"quote": "Laugh it up, fuzzball!"
+	},
+	{
 		"quoter": "Yoda",
 		"image": "yoda-icon.png",
 		"quote": "When nine hundred years old you reach, look as good you will not."
+	},
+	{
+		"quoter": "Yoda",
+		"image": "yoda-icon.png",
+		"quote": "That is why you fail."
+	},
+	{
+		"quoter": "Yoda",
+		"image": "yoda-icon.png",
+		"quote": "Adventure. Excitement. A Jedi craves not these things."
+	},
+	{
+		"quoter": "Yoda",
+		"image": "yoda-icon.png",
+		"quote": "Judge me by my size, do you?"
+	},
+	{
+		"quoter": "Yoda",
+		"image": "yoda-icon.png",
+		"quote": "Wars not make one great."
+	},
+	{
+		"quoter": "Yoda",
+		"image": "yoda-icon.png",
+		"quote": "Luminous beings are we…not this crude matter."
+	},
+	{
+		"quoter": "Yoda",
+		"image": "yoda-icon.png",
+		"quote": "Do. Or do not. There is no try."
 	},
 	{
 		"quoter": "Darth Vader",
@@ -771,9 +816,49 @@ var QUOTES_DATA = [
 		"quote": "When I left you I was but the learner. Now I am the master."
 	},
 	{
+		"quoter": "Darth Vader",
+		"image": "darth-vader-icon.png",
+		"quote": "I am altering the deal. Pray I don’t alter it any further."
+	},
+	{
+		"quoter": "Darth Vader",
+		"image": "darth-vader-icon.png",
+		"quote": "No, I am your father."
+	},
+	{
+		"quoter": "Darth Vader",
+		"image": "darth-vader-icon.png",
+		"quote": "I find your lack of faith disturbing."
+	},
+	{
+		"quoter": "Darth Vader",
+		"image": "darth-vader-icon.png",
+		"quote": "he Force is strong with this one."
+	},
+	{
 		"quoter": "Luke Skywalker",
 		"image": "luke-skywalker-icon.png",
 		"quote": "I'm a Jedi, like my father before me."
+	},
+	{
+		"quoter": "Luke Skywalker",
+		"image": "luke-skywalker-icon.png",
+		"quote": "Your overconfidence is your weakness."
+	},
+	{
+		"quoter": "Luke Skywalker",
+		"image": "luke-skywalker-icon.png",
+		"quote": "I won’t fail you. I’m not afraid."
+	},
+	{
+		"quoter": "Luke Skywalker",
+		"image": "luke-skywalker-icon.png",
+		"quote": "I’ll not leave you here. I’ve got to save you."
+	},
+	{
+		"quoter": "Luke Skywalker",
+		"image": "luke-skywalker-icon.png",
+		"quote": "I’m here to rescue you."
 	},
 	{
 		"quoter": "Obi-Wan Kenobi",
@@ -781,14 +866,49 @@ var QUOTES_DATA = [
 		"quote": "You will never find a more wretched hive of scum and villainy."
 	},
 	{
+		"quoter": "Obi-Wan Kenobi",
+		"image": "obi-wan-icon.png",
+		"quote": "These aren't the droids you're looking for."
+	},
+	{
+		"quoter": "Obi-Wan Kenobi",
+		"image": "obi-wan-icon.png",
+		"quote": "I have a bad feeling about this."
+	},
+	{
+		"quoter": "Obi-Wan Kenobi",
+		"image": "obi-wan-icon.png",
+		"quote": "That's no moon. It's a space station."
+	},
+	{
 		"quoter": "Lando Calrissian",
-		"image": "lando-icon.jpg",
+		"image": "lando-icon.png",
 		"quote": "You slimy, double-crossing, no-good swindler. You've got a lot of guts coming here."
 	},
+	{
+		"quoter": "Lando Calrissian",
+		"image": "lando-icon.png",
+		"quote": "That was never a condition of our agreement, nor was giving Han to this bounty hunter!"
+	}, 
 	{
 		"quoter": "Emperor Palpatine",
 		"image": "palpatine-icon.png",
 		"quote": "So be it, Jedi!"
+	}, 
+	{
+		"quoter": "Emperor Palpatine",
+		"image": "palpatine-icon.png",
+		"quote": "There is a great disturbance in the Force. "
+	}, 
+	{
+		"quoter": "Emperor Palpatine",
+		"image": "palpatine-icon.png",
+		"quote": "Are you threatening me, Master Jedi?"
+	}, 
+	{
+		"quoter": "Emperor Palpatine",
+		"image": "palpatine-icon.png",
+		"quote": "The Force is strong with him. The son of Skywalker must not become a Jedi."
 	},
 	{
 		"quoter": "Princess Leia",
@@ -796,20 +916,54 @@ var QUOTES_DATA = [
 		"quote": "I'd just as soon kiss a Wookie!"
 	},
 	{
+		"quoter": "Princess Leia",
+		"image": "princess-leia-icon.png",
+		"quote": "Help me Obi-wan Kenobi, you're my only hope."
+	},
+	{
+		"quoter": "Princess Leia",
+		"image": "princess-leia-icon.png",
+		"quote": "Why, you stuck up, half-witted, scruffy-looking Nerf herder."
+	},
+	{
+		"quoter": "Princess Leia",
+		"image": "princess-leia-icon.png",
+		"quote": "You have your moments. Not many of them, but you do have them."
+	},
+	{
 		"quoter": "C3-P0",
-		"image": "c3p0-icon.jpg",
+		"image": "c3p0-icon.png",
 		"quote": "Don't call me a mindless philosopher, you overweight glob of grease!"
+	},
+	{
+		"quoter": "C3-P0",
+		"image": "c3p0-icon.png",
+		"quote": "I suggest a new strategy, Artoo: let the Wookie win."
+	},
+	{
+		"quoter": "C3-P0",
+		"image": "c3p0-icon.png",
+		"quote": "If I told you half the things I've heard about this Jabba the Hutt, you'd probably short circuit."
 	},
 	{
 		"quoter": "R2-D2",
 		"image": "R2-D2-icon.png",
 		"quote": "Beep Bloop Blop Bleep Boop"
-	}
-	,
+	},
 	{
 		"quoter": "He-Man",
 		"image": "he-man-icon.png",
 		"quote": "By the Power of Grayskull, I have the power!"
+	},
+	{
+		"quoter": "He-Man",
+		"image": "he-man-icon.png",
+		"quote": "You haven't won yet. I suggest you let my friends go."
+	},
+	{
+		"quoter": "He-Man",
+		"image": "he-man-icon.png",
+		"quote": "Come on, Battle Cat. An Eternian snail can move faster than this. "
 	},
 	{
 		"quoter": "Skeletor",
@@ -817,34 +971,39 @@ var QUOTES_DATA = [
 		"quote": "Yes, we'll win this game the old fashioned way, the tried and true way: we'll cheat."
 	},
 	{
-		"quoter": "Cat",
-		"image": "cat-icon.jpg",
-		"quote": "How come you need more memory? Over the years you've had more RAM than a field of sheep!"
+		"quoter": "Skeletor",
+		"image": "skeletor-icon.png",
+		"quote": "I help no one but myself."
 	},
 	{
-		"quoter": "Dave Lister",
-		"image": "lister-icon.jpg",
-		"quote": "There's only three alternatives: It's either gonna kill us, eat us or hump us."
+		"quoter": "Skeletor",
+		"image": "skeletor-icon.png",
+		"quote": "I am not nice, I am not kind and I am not wonderful."
 	},
 	{
-		"quoter": "Holly",
-		"image": "holly-icon.png",
-		"quote": "I am Holly, the ship's computer, with an IQ of 6000; the same IQ as 6000 PE teachers."
-	},
-	{
-		"quoter": "Kryten",
-		"image": "kryten-icon.jpg",
-		"quote": "No silicon heaven? Preposterous! Where would all the calculators go?"
-	},
-	{
-		"quoter": "Rimmer",
-		"image": "rimmer-icon.jpg",
-		"quote": "You've got the bedsscoree manner of an abattoir giblet gutter."
+		"quoter": "Skeletor",
+		"image": "skeletor-icon.png",
+		"quote": "How I loathe heroes. Always getting in the way and acting so .. so ... heroic."
 	},
 	{
 		"quoter": "Alf",
-		"image": "alf-icon.jpg",
+		"image": "alf-icon.png",
 		"quote": "I learned one thing about eating jigsaw puzzles...an hour later, you're hungry again."
+	},
+	{
+		"quoter": "Alf",
+		"image": "alf-icon.png",
+		"quote": "There's hair in this tuna fish...I like it!"
+	},
+	{
+		"quoter": "Alf",
+		"image": "alf-icon.png",
+		"quote": "No problem, just leave me the keys to the liquor cabinet!"
+	},
+	{
+		"quoter": "Alf",
+		"image": "alf-icon.png",
+		"quote": "I wanna be alone. Come on Brian, keep me company!"
 	},
 	{
 		"quoter": "Confucius",
@@ -867,73 +1026,63 @@ var QUOTES_DATA = [
 		"quote": "Wheresoever you go, go with all your heart."
 	},
 	{
-		"quoter": "Plato",
-		"image": "plato.png",
-		"quote": "Be kind, for everyone you meet is fighting a hard battle."
-	},
-	{
-		"quoter": "Plato",
-		"image": "plato.png",
-		"quote": "The price good men pay for indifference to public affairs is to be ruled by evil men."
-	},
-	{
-		"quoter": "Aristotle",
-		"image": "aristotle.png",
-		"quote": "Happiness depends upon ourselves."
-	},
-	{
-		"quoter": "Aristotle",
-		"image": "aristotle.png",
-		"quote": "No great genius has ever existed without some touch of madness."
-	},
-	{
-		"quoter": "Socrates",
-		"image": "socrates.png",
-		"quote": "True knowledge exists in knowing that you know nothing."
-	},
-	{
-		"quoter": "Socrates",
-		"image": "socrates.png",
-		"quote": "I know that I am intelligent, because I know that I know nothing."
-	},
-	{
 		"quoter": "Damian",
-		"image": "damian.png",
+		"image": "damian-icon.png",
 		"quote": "Be yourself; everyone else is already taken."
 	},
 	{
 		"quoter": "Damian",
-		"image": "damian.png",
+		"image": "damian-icon.png",
 		"quote": "In three words I can sum up everything I've learned about life: it goes on."
 	},
 	{
 		"quoter": "Damian",
-		"image": "damian.png",
+		"image": "damian-icon.png",
 		"quote": "Luv ya Mum XXX"
 	},
 	{
 		"quoter": "Damian",
-		"image": "damian.png",
+		"image": "damian-icon.png",
 		"quote": "Always forgive your enemies; nothing annoys them so much."
 	},
 	{
 		"quoter": "Ozgur",
-		"image": "ozgur.png",
+		"image": "ozgur-icon.png",
 		"quote": "I am so clever that sometimes I don't understand a single word of what I am saying."
 	},
 	{
 		"quoter": "Ozgur",
-		"image": "ozgur.png",
+		"image": "ozgur-icon.png",
 		"quote": "Without music, life would be a mistake."
 	},
 	{
 		"quoter": "Ozgur",
-		"image": "ozgur.png",
+		"image": "ozgur-icon.png",
 		"quote": "Kisses to Rhoda! XXX"
 	},
 	{
 		"quoter": "Ozgur",
-		"image": "ozgur.png",
+		"image": "ozgur-icon.png",
 		"quote": "Life is what happens to you while you’re busy making other plans."
-	}
+	},
+	{
+		"quoter": "Alex P. Keaton",
+		"image": "alex-keaton.png",
+		"quote": "Grant College, the school that offers a course in the opening of an umbrella."
+	},
+	{
+		"quoter": "Alex P. Keaton",
+		"image": "alex-keaton.png",
+		"quote": "You know that I can only do things one way. Out of control."
+	},
+	{
+		"quoter": "Alex P. Keaton",
+		"image": "alex-keaton.png",
+		"quote": "Hey, I don't mind if I toot my own horn. Toot, toot!"
+	},
+	{
+		"quoter": "Alex P. Keaton",
+		"image": "alex-keaton.png",
+		"quote": "Face it, Keaton. She wants you."
+	} 
 ];

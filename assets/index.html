@@ -55,9 +55,18 @@
     					  <option value=".Sci-fi" data-icon="images/glyphs/sci-fi-glyph.png">Science Fiction and Supernatural</option>
     					</select>
     				</div>
-    				<div class="col s12 m2">
-    					<a style="display:none;" id="photo-button" class="waves-effect waves-light btn blue" href="images/covers/stranger-things.jpg" data-lightbox="image-1" data-title="My caption">button</a>
-    				</div>
+                    <div id="disk-selector-div" class="col s12 m6">
+                        <div>
+                            <p>Filter TV Shows by USB disk:</p>
+                        </div>
+                        <div>
+            				<input class="with-gap blue" name="disk-group" type="radio" id="disk-all-radio" value="*" /><label for="disk-all-radio">All</label>
+                            <input class="with-gap" name="disk-group" type="radio" id="disk-1-radio" value=".1" /><label for="disk-1-radio">Disk 1</label>
+                            <input class="with-gap" name="disk-group" type="radio" id="disk-2-radio" value=".2" /><label for="disk-2-radio">Disk 2</label>
+                            <input class="with-gap" name="disk-group" type="radio" id="disk-3-radio" value=".3" disabled="disabled" /><label for="disk-3-radio">Disk 3</label>
+                            <input class="with-gap" name="disk-group" type="radio" id="disk-4-radio" value=".4" disabled="disabled" /><label for="disk-4-radio">Disk 4</label>
+                        </div>
+                    </div>
     			</div> <!-- /row -->
     		</div> <!-- /grid-controls -->
     		<div class="grid"></div>

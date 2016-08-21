@@ -1,6 +1,6 @@
 // global variable declarations
 var $grid = $('.grid');
-var QUOTES_FREQUENCY_MS = 10000;
+var QUOTES_FREQUENCY_MS = 3000;
 var HIDDEN_TAGS = ['Recommended', 'British'];
 var MAX_SCROLLABLE = 300;
 
@@ -22,6 +22,11 @@ $( document ).ready(function() {
 		var filterValue = this.value;
 		$grid.isotope({ filter: filterValue });
 	});
+
+	$('input[type=radio][name=disk-group]').change(function() {
+        var filterValue = this.value;
+		$grid.isotope({ filter: filterValue });
+    });
     
     // add scroll logic so that when the screen has been scrolled past
     // MAX_SCROLLABLE we can show a 'back to top' button
@@ -120,6 +125,7 @@ function renderGrid() {
 	$.each(TV_SHOW_DATA, function( index, tvshow ) {
 
 	  html += '<div class="element-item ';
+	  html += tvshow.disk + ' ';
 	  for (var i = 0; i < tvshow.tags.length; i++) {
 		  if(i==(tvshow.tags.length-1)) {
 			html += tvshow.tags[i];
@@ -159,22 +165,42 @@ function renderGrid() {
 }
 
 function renderQuotes() {
+	// array to hold the displayed quotes in order not te repeat quote display
+	var QUOTES_DISPLAYED = [];
+
 	// create and render an inital quote
-	var index = getRandomArbitrary(0, QUOTES_DATA.length-1);
-	var quote = QUOTES_DATA[index];
-		$("#quote-img").attr("src", 'images/icons/'+quote.image);
-		$("#quote-name").html(quote.quoter);
-		$("#quote").html(quote.quote);
+	var initialQuote = getQuote();
+		$("#quote-img").attr("src", 'images/icons/'+initialQuote.image);
+		$("#quote-name").html(initialQuote.quoter);
+		$("#quote").html(initialQuote.quote);
+
+	// add inital quote to displayed quotes
+	QUOTES_DISPLAYED.push(initialQuote);
 	
 	// create a timer for cyclying the quotes
 	window.setInterval(function(){
-		var index = getRandomArbitrary(0, QUOTES_DATA.length-1);
-		var quote = QUOTES_DATA[index];
-		$("#quote-img").attr("src", 'images/icons/'+quote.image);
-		$("#quote-name").html(quote.quoter);
-		$("#quote").html(quote.quote);
+		var quoteAdded = false;
+		while(quoteAdded === false) {
+			var quote = getQuote();
+			if($.inArray(quote, QUOTES_DISPLAYED) === -1) {
+				$("#quote-img").attr("src", 'images/icons/'+quote.image);
+				$("#quote-name").html(quote.quoter);
+				$("#quote").html(quote.quote);
+				QUOTES_DISPLAYED.push(quote);
+				quoteAdded = true;
+			}
+		}
+
+		if(QUOTES_DISPLAYED.length === QUOTES_DATA.length) {
+			QUOTES_DISPLAYED = [];
+		}
 		
 	}, QUOTES_FREQUENCY_MS);
+}
+
+function getQuote() {
+	var index = getRandomArbitrary(0, QUOTES_DATA.length-1);
+	return QUOTES_DATA[index];
 }
 
 function getRandomArbitrary(min, max) {
