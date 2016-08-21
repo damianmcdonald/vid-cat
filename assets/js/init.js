@@ -1,6 +1,6 @@
 // global variable declarations
 var $grid = $('.grid');
-var QUOTES_FREQUENCY_MS = 3000;
+var QUOTES_FREQUENCY_MS = 10000;
 var HIDDEN_TAGS = ['Recommended', 'British'];
 var MAX_SCROLLABLE = 300;
 
