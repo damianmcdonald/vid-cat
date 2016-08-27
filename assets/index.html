@@ -84,5 +84,21 @@
 	<script type="text/javascript" src="http://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
 	<script type="text/javascript" src='http://imagesloaded.desandro.com/imagesloaded.pkgd.js'></script>
 	<script type="text/javascript" src="js/init.js"></script> 
+
+    <div class="hidden">
+        <script type="text/javascript">
+            <!--//--><![CDATA[//><!--
+                function preloadQuoteImages() {
+                    var images = new Array();
+                    for (i = 0; i < QUOTES_DATA.length; i++) {
+                        images[i] = new Image()
+                        images[i].src = 'images/icons/'+QUOTES_DATA[i].image;
+                    }
+                }
+                preloadQuoteImages();
+            //--><!]]>
+        </script>
+    </div>
+
 </body>
 </html>
