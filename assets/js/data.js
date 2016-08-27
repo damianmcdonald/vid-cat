@@ -833,7 +833,7 @@ var QUOTES_DATA = [
 	{
 		"quoter": "Darth Vader",
 		"image": "darth-vader-icon.png",
-		"quote": "he Force is strong with this one."
+		"quote": "The Force is strong with this one."
 	},
 	{
 		"quoter": "Luke Skywalker",
@@ -1028,22 +1028,12 @@ var QUOTES_DATA = [
 	{
 		"quoter": "Damian",
 		"image": "damian-icon.png",
-		"quote": "Be yourself; everyone else is already taken."
-	},
-	{
-		"quoter": "Damian",
-		"image": "damian-icon.png",
-		"quote": "In three words I can sum up everything I've learned about life: it goes on."
-	},
-	{
-		"quoter": "Damian",
-		"image": "damian-icon.png",
 		"quote": "Luv ya Mum XXX"
 	},
 	{
 		"quoter": "Damian",
 		"image": "damian-icon.png",
-		"quote": "Always forgive your enemies; nothing annoys them so much."
+		"quote": "Missing you Mum and always thinking of you XXX"
 	},
 	{
 		"quoter": "Ozgur",
@@ -1059,11 +1049,6 @@ var QUOTES_DATA = [
 		"quoter": "Ozgur",
 		"image": "ozgur-icon.png",
 		"quote": "Kisses to Rhoda! XXX"
-	},
-	{
-		"quoter": "Ozgur",
-		"image": "ozgur-icon.png",
-		"quote": "Life is what happens to you while you’re busy making other plans."
 	},
 	{
 		"quoter": "Alex P. Keaton",
