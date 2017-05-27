@@ -1,756 +1,296 @@
 var TV_SHOW_DATA = [
 	{
-		"score": 9,
-		"name": "Stranger Things",
-		"cover": "stranger-things.jpg",
+		"score": 7,
+		"name": "13th",
+		"cover": "13th.jpg",
 		"tags": [
-			"Sci-fi",
-			"Fantasy",
-			"Top Pick",
-			"Recommended"
+			"Doco"
 		],
-		"synopsis": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.",
-		"seasons": "1",
-		"uri": "http://www.imdb.com/title/tt4574334/",
+		"synopsis": "The film explores the intersection of race, justice and mass incarceration in the United States.",
+		"seasons": "N/A",
+		"uri": "http://www.imdb.com/title/tt5895028/",
+		"disk": "1"
+	},
+	{
+		"score": 8,
+		"name": "Awakening the Zodiac",
+		"cover": "awakening-the-zodiac.jpg",
+		"tags": [
+			"Crime",
+			"Movie"
+		],
+		"synopsis": "The story follows a down-on-their-luck couple who discovers a serial killer's film reels.",
+		"seasons": "N/A",
+		"uri": "http://www.imdb.com/title/tt6294892/",
 		"disk": "1"
 	},
 	{
 		"score": 9,
-		"name": "Better Call Saul",
-		"cover": "better-call-saul.jpg",
+		"name": "Billions",
+		"cover": "billions.jpg",
 		"tags": [
 			"Drama",
 			"Top Pick",
 			"Recommended"
 		],
-		"synopsis": "The trials and tribulations of criminal lawyer, Jimmy McGill, in the time leading up to establishing his strip-mall law office in Albuquerque, New Mexico.",
-		"seasons": "2",
-		"uri": "http://www.imdb.com/title/tt3032476/",
+		"synopsis": "U.S. Attorney Chuck Rhoades goes after hedge fund king, Bobby Axelrod in a battle between two powerful New York figures.",
+		"seasons": "2 (ongoing)",
+		"uri": "http://www.imdb.com/title/tt4270492/",
+		"disk": "1"
+	},
+	{
+		"score": 7,
+		"name": "Coast New Zealand",
+		"cover": "coast-nz.jpg",
+		"tags": [
+			"Doco",
+            "British",
+			"Recommended"
+		],
+		"synopsis": "Documentary series that discovers the beauty of the New Zealand coastline.",
+		"seasons": "1",
+		"uri": "http://www.imdb.com/title/tt4402402/",
 		"disk": "1"
 	},
 	{
 		"score": 9,
-		"name": "Ray Donovan",
-		"cover": "ray-donovan.jpg",
+		"name": "Fortitude",
+		"cover": "fortitude.jpg",
 		"tags": [
-			"Crime",
+            "British",
 			"Top Pick",
 			"Recommended"
 		],
-		"synopsis": "Ray Donovan, a professional 'fixer' for the rich and famous in LA, can make anyone's problems disappear except those created by his own family.",
+		"synopsis": "Perched on the edge of the Arctic Circle, Fortitude is one of the safest towns on earth. There has never been a violent crime here. Until now.",
+		"seasons": "2 (ongoing)",
+		"uri": "http://www.imdb.com/title/tt3498622/",
+		"disk": "1"
+	},
+	{
+		"score": 8,
+		"name": "Get Out",
+		"cover": "get-out.jpg",
+		"tags": [
+            "Movie",
+			"Supernatural",
+			"Recommended"
+		],
+		"synopsis": "It's time for a young African American to meet with his white girlfriend's parents for a weekend in their secluded estate in the woods, but before long, the friendly and polite ambience will give way to a nightmare.",
+		"seasons": "N/A",
+		"uri": "http://www.imdb.com/title/tt5052448/",
+		"disk": "1"
+	},
+	{
+		"score": 8,
+		"name": "Gold",
+		"cover": "gold.jpg",
+		"tags": [
+			"Movie",
+            "Drama"
+		],
+		"synopsis": "Kenny Wells, a prospector desperate for a lucky break, teams up with a similarly eager geologist and sets off on a journey to find gold in the uncharted jungle of Indonesia.",
+		"seasons": "N/A",
+		"uri": "http://www.imdb.com/title/tt1800302/",
+		"disk": "1"
+	},
+	{
+		"score": 7,
+		"name": "Grand Tours of Scotland",
+		"cover": "grand-tours-scotland.jpg",
+		"tags": [
+			"Doco",
+			"British"
+		],
+		"synopsis": "Join Paul Murton as he discovers the wonders of Scotland.",
+		"seasons": "1",
+		"uri": "http://www.imdb.com/title/tt5958684/",
+		"disk": "1"
+	},
+	{
+		"score": 9,
+		"name": "A Handmaid's Tale",
+		"cover": "handmaids-tale.jpg",
+		"tags": [
+            "Sci-fi",
+			"Top Pick",
+			"Recommended"
+		],
+		"synopsis": "Set in a dystopian future, a woman is forced to live as a concubine under a fundamentalist theocratic dictatorship.",
+		"seasons": "1",
+		"uri": "http://www.imdb.com/title/tt5834204/",
+		"disk": "1"
+	},
+	{
+		"score": 7,
+		"name": "Hidden Figures",
+		"cover": "hidden-figures.jpg",
+		"tags": [
+			"Movie",
+			"Drama"
+		],
+		"synopsis": "The story of a team of female African-American mathematicians who served a vital role in NASA during the early years of the U.S. space program.",
+		"seasons": "N/A",
+		"uri": "http://www.imdb.com/title/tt4846340/",
+		"disk": "1"
+	},
+	{
+		"score": 8,
+		"name": "Manchester by the Sea",
+		"cover": "manchester-by-the-sea.jpg",
+		"tags": [
+			"Movie",
+			"Drama",
+            "Recommended"
+		],
+		"synopsis": "A depressed uncle is asked to take care of his teenage nephew after the boy's father dies.",
+		"seasons": "N/A",
+		"uri": "http://www.imdb.com/title/tt4034228/",
+		"disk": "1"
+	},
+	{
+		"score": 7,
+		"name": "Morgan",
+		"cover": "morgan.jpg",
+		"tags": [
+			"Movie",
+			"Sci-fi"
+		],
+		"synopsis": "A corporate risk-management consultant must decide whether or not to terminate an artificially created humanoid being.",
+		"seasons": "N/A",
+		"uri": "http://www.imdb.com/title/tt4520364/",
+		"disk": "1"
+	},
+	{
+		"score": 8,
+		"name": "Orange is the new Black",
+		"cover": "orange-is-new-black.jpg",
+		"tags": [
+			"Drama"
+		],
+		"synopsis": "Convicted of a decade old crime of transporting drug money to an ex-girlfriend, normally law abiding Piper Chapman is sentenced to a year and a half behind bars to face the reality of how life changing prison can really be.",
 		"seasons": "4 (ongoing)",
-		"uri": "http://www.imdb.com/title/tt2249007/",
-		"disk": "2"
+		"uri": "http://www.imdb.com/title/tt2372162/",
+		"disk": "1"
+	},
+	{
+		"score": 7,
+		"name": "Australia with Simon Reeve",
+		"cover": "simon-reeve-oz.jpg",
+		"tags": [
+			"Doco",
+            "British",
+			"Recommended"
+		],
+		"synopsis": "Simon Reeve goes on a journey around Australia.",
+		"seasons": "1",
+		"uri": "http://www.imdb.com/title/tt3741616/",
+		"disk": "1"
+	},
+	{
+		"score": 7,
+		"name": "The Space Between US",
+		"cover": "space-between-us.jpg",
+		"tags": [
+			"Movie",
+            "Sci-fi"
+		],
+		"synopsis": "The first human born on Mars travels to Earth for the first time, experiencing the wonders of the planet through fresh eyes. He embarks on an adventure with a street smart girl to discover how he came to be.",
+		"seasons": "N/A",
+		"uri": "http://www.imdb.com/title/tt3922818/",
+		"disk": "1"
 	},
 	{
 		"score": 9,
-		"name": "True Detective",
-		"cover": "true-detective.jpg",
+		"name": "Split",
+		"cover": "split.jpg",
 		"tags": [
-			"Crime",
-			"Top Actors",
+			"Movie",
+            "Top Pick",
 			"Recommended"
 		],
-		"synopsis": "An anthology series in which police investigations unearth the personal and professional secrets of those involved, both within and outsscoree the law.",
-		"seasons": "2",
-		"uri": "http://www.imdb.com/title/tt2356777/",
+		"synopsis": "Three girls are kidnapped by a man with a diagnosed 23 distinct personalities. They must try to escape before the apparent emergence of a frightful new 24th.",
+		"seasons": "N/A",
+		"uri": "http://www.imdb.com/title/tt4972582/",
 		"disk": "1"
 	},
 	{
 		"score": 8,
-		"name": "Penny Dreadful",
-		"cover": "penny-dreadful.png",
+		"name": "Taboo",
+		"cover": "taboo.jpg",
 		"tags": [
-			"Supernatural",
-			"Sci-fi",
-			"Recommended"
-		],
-		"synopsis": "Explorer Sir Malcolm Murray, American gunslinger Ethan Chandler, scientist Victor Frankenstein and medium Vanessa Ives unite to combat supernatural threats in Victorian London.",
-		"seasons": "3",
-		"uri": "http://www.imdb.com/title/tt2628232/",
-		"disk": "2"
-	},
-	{
-		"score": 9,
-		"name": "Broadchurch",
-		"cover": "broadchurch.jpg",
-		"tags": [
-			"Crime",
-			"Serial Killer",
-			"BBC",
 			"British",
-			"Recommended"
-		],
-		"synopsis": "The murder of a young boy in a small coastal town brings a media frenzy, which threatens to tear the community apart.",
-		"seasons": "2",
-		"uri": "http://www.imdb.com/title/tt2249364/",
-		"disk": "1"
-	},
-	{
-		"score": 8,
-		"name": "The Walking Dead",
-		"cover": "walking-dead.jpg",
-		"tags": [
-			"Sci-fi",
-			"Apocalypse",
-			"Recommended"
-		],
-		"synopsis": "Sheriff Deputy Rick Grimes leads a group of survivors in a world overrun by the walking dead. Fighting the dead, fearing the living.",
-		"seasons": "7",
-		"uri": "http://www.imdb.com/title/tt1520211/",
-		"disk": "2"
-	},
-	{
-		"score": 7,
-		"name": "Dexter",
-		"cover": "dexter.jpg",
-		"tags": [
-			"Crime",
-			"Serial Killer",
-			"Recommended"
-		],
-		"synopsis": "Dexter Morgan is a Forensics Expert, a loyal brother, boyfriend, and friend. That's what he seems to be, but that's not what he really is. Dexter Morgan is a Serial Killer that hunts the bad.",
-		"seasons": "8",
-		"uri": "http://www.imdb.com/title/tt0773262/",
-		"disk": "1"
-	},
-	{
-		"score": 7,
-		"name": "Fargo",
-		"cover": "fargo.jpg",
-		"tags": [
-			"Crime",
-			"Top Actors"
-		],
-		"synopsis": "Various chronicles of deception, intrigue and murder in and around frozen Minnesota. Yet all of these tales mysteriously lead back one way or another to Fargo, North Dakota.",
-		"seasons": "2",
-		"uri": "http://www.imdb.com/title/tt2802850/",
-		"disk": "1"
-	},
-	{
-		"score": 7,
-		"name": "Hannibal",
-		"cover": "hannibal.jpg",
-		"tags": [
-			"Crime",
-			"Serial Killer"
-		],
-		"synopsis": "Explores the early relationship between the renowned psychiatrist and his patient, a young FBI criminal profiler, who is haunted by his ability to empathize with serial killers.",
-		"seasons": "3",
-		"uri": "http://www.imdb.com/title/tt2243973/",
-		"disk": "2"
-	},
-	{
-		"score": 7,
-		"name": "Happy Valley",
-		"cover": "happy-valley.jpg",
-		"tags": [
-			"Crime",
-			"BBC",
-			"British"
-		],
-		"synopsis": "Catherine Cawood is the sergeant on duty when flustered and nervous accountant Kevin Weatherill comes into her West Yorkshire station to report a crime.",
-		"seasons": "2",
-		"uri": "http://www.imdb.com/title/tt3428912/",
-		"disk": "1"
-	},
-	{
-		"score": 6,
-		"name": "The Living And The Dead",
-		"cover": "living-and-dead.jpg",
-		"tags": [
-			"Sci-fi",
 			"Supernatural",
-			"BBC",
-			"British"
+            "Crime"
 		],
-		"synopsis": "A brilliant young couple inherit a farm and are determined to start a new life together. But their presence in this isolated corner of England starts to unleash supernatural phenomena.",
+		"synopsis": "Adventurer James Keziah Delaney returns to London during the War of 1812 to rebuild his late father's shipping empire. However, both the government and his biggest competitor want his inheritance at any cost - even murder.",
 		"seasons": "1",
-		"uri": "http://www.imdb.com/title/tt4928166/",
-		"disk": "TBA"
-	},
-	{
-		"score": 6,
-		"name": "Marchlands",
-		"cover": "marchlands.jpg",
-		"tags": [
-			"Sci-fi",
-			"Supernatural",
-			"ITV",
-			"British"
-		],
-		"synopsis": "A supernatural drama telling the story of three different families living in the same house in 1968, 1987 and the present day, linked by the spirit of the young daughter of the 1960s family.",
-		"seasons": "Mini-Series",
-		"uri": "http://www.imdb.com/title/tt1834598/",
-		"disk": "1"
-	},
-	{
-		"score": 6,
-		"name": "Marco Polo",
-		"cover": "marco-polo.jpg",
-		"tags": [
-			"Drama",
-			"Historical"
-		],
-		"synopsis": "In a world replete with greed, betrayal, sexual intrigue and rivalry, 'Marco Polo' is based on the famed explorer's adventures in Kublai Khan's court in 13th century Mongolia.",
-		"seasons": "1",
-		"uri": "http://www.imdb.com/title/tt2189461/",
-		"disk": "2"
-	},
-	{
-		"score": 8,
-		"name": "Narcos",
-		"cover": "narcos.jpg",
-		"tags": [
-			"Crime",
-			"True Story",
-			"Recommended"
-		],
-		"synopsis": "A chronicled look at the criminal exploits of Colombian drug lord Pablo Escobar.",
-		"seasons": "1",
-		"uri": "http://www.imdb.com/title/tt2707408/",
+		"uri": "http://www.imdb.com/title/tt3647998/",
 		"disk": "1"
 	},
 	{
 		"score": 8,
-		"name": "Code Of A Killer",
-		"cover": "code-killer.jpg",
+		"name": "The Founder",
+		"cover": "the-fouder.jpg",
 		"tags": [
-			"Crime",
-			"True Story",
-			"British",
-			"Recommended"
+			"Movie",
+            "Drama"
 		],
-		"synopsis": "The story of Alec Jeffreys' discovery of DNA fingerprinting and its first use by DCS Davscore Baker in catching a double murderer.",
-		"seasons": "Mini-Series",
-		"uri": "http://www.imdb.com/title/tt3847626/",
-		"disk": "1"
-	},
-	{
-		"score": 5,
-		"name": "Black Mirror",
-		"cover": "black-mirror.jpg",
-		"tags": [
-			"Drama",
-			"Mystery",
-			"British"
-		],
-		"synopsis": "A television anthology series that shows the dark sscoree of life and technology.",
-		"seasons": "3",
-		"uri": "http://www.imdb.com/title/tt2085059/",
-		"disk": "2"
-	},
-	{
-		"score": 6,
-		"name": "Derek",
-		"cover": "derek.jpg",
-		"tags": [
-			"Comedy",
-			"BBC",
-			"British"
-		],
-		"synopsis": "Derek is a loyal nursing home care assistant who sees only the good in his quirky co-workers as they struggle against prejudice and shrinking budgets to care for their elderly resscoreents.",
-		"seasons": "2",
-		"uri": "http://www.imdb.com/title/tt2616280/",
-		"disk": "2"
-	},
-	{
-		"score": 5,
-		"name": "The Enfield Haunting",
-		"cover": "enfield-haunting.jpg",
-		"tags": [
-			"Sci-fi",
-			"Supernatural",
-			"BBC",
-			"British"
-		],
-		"synopsis": "In August 1977, a series of bizarre and terrifying events begin to take place in a seemingly ordinary house in Enfield, North London.",
-		"seasons": "Mini-Series",
-		"uri": "http://www.imdb.com/title/tt4036886/",
-		"disk": "1"
-	},
-	{
-		"score": 4,
-		"name": "Extras",
-		"cover": "extras.jpg",
-		"tags": [
-			"Comedy",
-			"BBC",
-			"British"
-		],
-		"synopsis": "Andy Millman is an actor with ambition and a script. Reduced to working as an extra with a useless agent, Andy's attempts to boost his career invariably end in failure and embarrassment.",
-		"seasons": "Mini-Series",
-		"uri": "http://www.imdb.com/title/tt0445114/",
-		"disk": "TBA"
-	},
-	{
-		"score": 1,
-		"name": "Fear The Walking Dead",
-		"cover": "fear-walking-dead.jpg",
-		"tags": [
-			"Sci-fi",
-			"Apocalypse",
-		],
-		"synopsis": "What dscore the world look like as it was transforming into the horrifying apocalypse depicted in The Walking Dead (2010)? This spin-off follows new characters as they face the beginning of the end of the world.",
-		"seasons": "2",
-		"uri": "http://www.imdb.com/title/tt3743822/",
-		"disk": "TBA"
-	},
-	{
-		"score": 5,
-		"name": "Humans",
-		"cover": "humans.jpg",
-		"tags": [
-			"Drama",
-			"Mystery",
-			"British"
-		],
-		"synopsis": "In a parallel present where the latest must-have gadget for any busy family is a 'Synth' - a highly-developed robotic servant that's so similar to a real human it's transforming the way we live.",
-		"seasons": "1",
-		"uri": "http://www.imdb.com/title/tt4122068/",
-		"disk": "2"
-	},
-	{
-		"score": 3,
-		"name": "Life's Too Short",
-		"cover": "lifes-too-short.jpg",
-		"tags": [
-			"Comedy",
-			"BBC",
-			"British"
-		],
-		"synopsis": "The show centers on Warwick Davis in his day-to-day life, complete with the frustrations he faces.",
-		"seasons": "1",
-		"uri": "http://www.imdb.com/title/tt1641247/",
-		"disk": "TBA"
-	},
-	{
-		"score": 6,
-		"name": "River",
-		"cover": "river.jpg",
-		"tags": [
-			"Crime",
-			"Serial Killer",
-			"BBC",
-			"British"
-		],
-		"synopsis": "John River is a brilliant police inspector whose genius lies sscoree-by-sscoree with the fragility of his mind. He is a man haunted by the murder victims whose cases he must lay to rest.",
-		"seasons": "1",
-		"uri": "http://www.imdb.com/title/tt4258440/",
-		"disk": "TBA"
-	},
-	{
-		"score": 8,
-		"name": "Sherlock",
-		"cover": "sherlock.jpg",
-		"tags": [
-			"Crime",
-			"Mystery",
-			"BBC",
-			"British"
-		],
-		"synopsis": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
-		"seasons": "1",
-		"uri": "http://www.imdb.com/title/tt1475582/",
+		"synopsis": "The story of Ray Kroc, a salesman who turned two brothers' innovative fast food eatery, McDonald's, into one of the biggest restaurant businesses in the world with a combination of ambition, persistence, and ruthlessness.",
+		"seasons": "N/A",
+		"uri": "http://www.imdb.com/title/tt4276820/",
 		"disk": "1"
 	},
 	{
 		"score": 9,
-		"name": "The Fall",
-		"cover": "the-fall.jpg",
+		"name": "The OA",
+		"cover": "the-oa.jpg",
 		"tags": [
-			"Crime",
-			"Serial Killer",
-			"BBC",
-			"British",
-			"Recommended"
-		],
-		"synopsis": "Two hunters, one cold, deliberate and highly efficient and the other, a strong, athletic man with a wife, two children and a counselling job... one of them is a serial killer and one is a cop.",
-		"seasons": "1",
-		"uri": "http://www.imdb.com/title/tt2294189/",
-		"disk": "1"
-	},
-	{
-		"score": 7,
-		"name": "The Office",
-		"cover": "the-office.jpg",
-		"tags": [
-			"Comedy",
-			"BBC",
-			"British"
-		],
-		"synopsis": "The story of an office that faces closure when the company decscorees to downsize its branches. A documentary film crew follow staff and the manager Brent as they continue their daily lives.",
-		"seasons": "2",
-		"uri": "http://www.imdb.com/title/tt0290978/",
-		"disk": "TBA"
-	},
-	{
-		"score": 4,
-		"name": "Those Who Kill",
-		"cover": "those-who-kill.jpg",
-		"tags": [
-			"Crime",
-			"Serial Killer"
-		],
-		"synopsis": "Follows Catherine Jensen who enlists the help of Thomas Schaeffer, a forensic psychologist, to track down serial killers.",
-		"seasons": "1",
-		"uri": "http://www.imdb.com/title/tt2188931/",
-		"disk": "1"
-	},
-	{
-		"score": 6,
-		"name": "Top Of The Lake",
-		"cover": "top-of-lake.jpg",
-		"tags": [
-			"Crime",
-			"Drama",
-			"BBC"
-		],
-		"synopsis": "When a pregnant 12-year-old girl tries to kill herself, Detective Robin Griffin finds herself knee-deep in small-town secrets.",
-		"seasons": "1",
-		"uri": "http://www.imdb.com/title/tt2103085/",
-		"disk": "1"
-	},
-	{
-		"score": 5,
-		"name": "11.22.63",
-		"cover": "11.22.63.jpg",
-		"tags": [
-			"Sci-fi",
-			"Time Travel"
-		],
-		"synopsis": "A high school teacher travels back in time to prevent John F. Kennedy's assassination.",
-		"seasons": "Mini-Series",
-		"uri": "http://www.imdb.com/title/tt2879552/",
-		"disk": "2"
-	},
-	{
-		"score": 9,
-		"name": "Bates Motel",
-		"cover": "bates-motel.jpg",
-		"tags": [
-			"Drama",
+            "Supernatural",
 			"Top Pick",
 			"Recommended"
 		],
-		"synopsis": "Centers on a mother and son who come to a new town so that they can start over and set up a new business, but a lot of mysterious incidents happen, including the unanswered and horrible acts of the son.",
-		"seasons": "4",
-		"uri": "http://www.imdb.com/title/tt2188671/",
+		"synopsis": "Having gone missing seven years ago, the previously blind Prairie returns home, now in her 20s with her sight restored. While many believe she is a miracle, others worry that she could be dangerous.",
+		"seasons": "1",
+		"uri": "http://www.imdb.com/title/tt4635282/",
 		"disk": "1"
-	},
-	{
-		"score": 6,
-		"name": "Daredevil",
-		"cover": "daredevil.jpg",
-		"tags": [
-			"Sci-fi",
-			"Superhero"
-		],
-		"synopsis": "Matt Murdock, with his other senses superhumanly enhanced, fights crime as a blind lawyer by day, and vigilante by night.",
-		"seasons": "2",
-		"uri": "http://www.imdb.com/title/tt3322312/",
-		"disk": "TBA"
-	},
-	{
-		"score": 6,
-		"name": "Jessica Jones",
-		"cover": "jessica-jones.jpg",
-		"tags": [
-			"Sci-fi",
-			"Superhero"
-		],
-		"synopsis": "A former superhero decscorees to reboot her life by becoming a private investigator.",
-		"seasons": "1",
-		"uri": "http://www.imdb.com/title/tt2357547/",
-		"disk": "TBA"
-	},
-	{
-		"score": 1,
-		"name": "ESPN 30 For 30",
-		"cover": "espn-30-for-30.jpg",
-		"tags": [
-			"Doco",
-			"Sports"
-		],
-		"synopsis": "ESPN Films' 30 for 30 is an unprecedented documentary series featuring today's finest storytellers from insscoree and outsscoree of the sports world.",
-		"seasons": "1",
-		"uri": "http://www.imdb.com/title/tt1408430/",
-		"disk": "TBA"
-	},
-	{
-		"score": 4,
-		"name": "Jericho",
-		"cover": "jericho.jpg",
-		"tags": [
-			"Sci-fi",
-			"Apocalypse"
-		],
-		"synopsis": "A small town in Kansas is literally left in the dark after seeing a mushroom cloud over near-by Denver, Colorado. The townspeople struggle to find answers about the blast and solutions on how to survive.",
-		"seasons": "2",
-		"uri": "http://www.imdb.com/title/tt0805663/",
-		"disk": "TBA"
-	},
-	{
-		"score": 5,
-		"name": "London Spy",
-		"cover": "london-spy.jpg",
-		"tags": [
-			"Drama",
-			"BBC",
-			"British"
-		],
-		"synopsis": "Story of a chance romance between two people from very different worlds, one from the headquarters of the Secret Intelligence Service, the other from a world of clubbing and youthful excess.",
-		"seasons": "1",
-		"uri": "http://www.imdb.com/title/tt4108134/",
-		"disk": "TBA"
 	},
 	{
 		"score": 8,
-		"name": "Marcella",
-		"cover": "marcella.jpg",
+		"name": "Underbelly Files",
+		"cover": "underbelly-files.jpg",
 		"tags": [
-			"Crime",
-			"Serial Killer",
-			"British",
-			"Recommended"
+            "Drama",
+            "Crime"
 		],
-		"synopsis": "Marcella Backland left the Metropolitan Police for the sake of her family, only to have her husband leave her. She returns to her job on the murder squad, investigating a case that seems disturbingly familiar to her.",
+		"synopsis": "The tragic story of the 1998 murders of Victoria Police officers Rod Miller and Gary Silk.",
 		"seasons": "1",
-		"uri": "http://www.imdb.com/title/tt5269594/",
+		"uri": "http://www.imdb.com/title/tt1684227/",
 		"disk": "1"
-	},
-	{
-		"score": 7,
-		"name": "The Night Manager",
-		"cover": "night-manager.jpg",
-		"tags": [
-			"Drama",
-			"BBC",
-			"British"
-		],
-		"synopsis": "The night manager of a Cairo hotel is recruited to infiltrate an arms dealer's inner circle.",
-		"seasons": "Mini-Series",
-		"uri": "http://www.imdb.com/title/tt1399664/",
-		"disk": "2"
 	},
 	{
 		"score": 8,
-		"name": "The Missing",
-		"cover": "the-missing.jpg",
+		"name": "Underbelly NZ",
+		"cover": "underbelly-nz.jpg",
 		"tags": [
-			"Crime",
-			"Drama",
-			"BBC",
-			"British",
-			"Recommended"
+            "Drama",
+            "Crime"
 		],
-		"synopsis": "When Tony and Emily Hughes travel to France with their 5-year-old son Oliver, their family holscoreay turns into a nightmare when Oliver disappears from a large celebrating crowd in Northern France.",
+		"synopsis": "The story of Marty Johnstone, Andy Maher & Terry Clark's rise in the Drug trade.",
 		"seasons": "1",
-		"uri": "http://www.imdb.com/title/tt3877200/",
-		"disk": "1"
-	},
-	{
-		"score": 4,
-		"name": "The Path",
-		"cover": "the-path.jpg",
-		"tags": [
-			"Drama",
-			"Mystery"
-		],
-		"synopsis": "A man who converts to a controversial following suffers from a crisis of faith.",
-		"seasons": "1",
-		"uri": "http://www.imdb.com/title/tt4789576/",
-		"disk": "TBA"
-	},
-	{
-		"score": 7,
-		"name": "Scotland's Wild Heart",
-		"cover": "scotlands-wild-heart.jpg",
-		"tags": [
-			"Doco",
-			"Scotland",
-			"BBC",
-			"British"
-		],
-		"synopsis": "Ewan McGregor narrates a dramatic portrait of his homeland's wildlife. With spectacular photography and incredible behaviour, the series showcases the Highlands as never before.",
-		"seasons": "Mini-Series",
-		"uri": "http://www.bbc.co.uk/programmes/p03pjc9p",
-		"disk": "2"
-	},
-	{
-		"score": 1,
-		"name": "Family Ties",
-		"cover": "family-ties.jpg",
-		"tags": [
-			"Comedy",
-			"Classic"
-		],
-		"synopsis": "Chronicles liberal ex-hippies Steven and Elyse Keaton, their conservative son Alex, daughters Mallory and Jennifer, and later, youngest child Andrew.",
-		"seasons": "7",
-		"uri": "http://www.imdb.com/title/tt0083413/",
-		"disk": "TBA"
-	},
-	{
-		"score": 1,
-		"name": "Red Dwarf",
-		"cover": "red-dwarf.png",
-		"tags": [
-			"Comedy",
-			"Classic",
-			"BBC",
-			"British"
-		],
-		"synopsis": "The adventures of the last human alive and his friends, stranded three million years into deep space on the mining ship Red Dwarf.",
-		"seasons": "10",
-		"uri": "http://www.imdb.com/title/tt1999718/",
-		"disk": "TBA"
-	},
-	{
-		"score": 1,
-		"name": "Fawlty Towers",
-		"cover": "fawlty-towers.jpg",
-		"tags": [
-			"Comedy",
-			"Classic",
-			"BBC",
-			"British"
-		],
-		"synopsis": "Hotel owner Basil Fawlty's incompetence, short fuse, and arrogance form a combination that ensures accidents and trouble are never far away.",
-		"seasons": "2",
-		"uri": "http://www.imdb.com/title/tt0072500/",
-		"disk": "TBA"
-	},
-	{
-		"score": 1,
-		"name": "Blackadder",
-		"cover": "blackadder.jpg",
-		"tags": [
-			"Comedy",
-			"Classic",
-			"BBC",
-			"British"
-		],
-		"synopsis": "In the Middle Ages, Prince Edmund the Black Adder constantly schemes and endeavors to seize the crown from his father and brother.",
-		"seasons": "4",
-		"uri": "http://www.imdb.com/title/tt0084988/",
-		"disk": "TBA"
-	},
-	{
-		"score": 9,
-		"name": "Game Of Thrones",
-		"cover": "game-of-thrones.jpg",
-		"tags": [
-			"Sci-fi",
-			"Fantasy",
-			"Top Pick",
-			"Recommended"
-		],
-		"synopsis": "While a civil war brews between several noble families in Westeros, the children of the former rulers of the land attempt to rise up to power while a forgotten race, bent on destruction, plans to return.",
-		"seasons": "6",
-		"uri": "http://www.imdb.com/title/tt0944947/",
-		"disk": "TBA"
-	},
-	{
-		"score": 7,
-		"name": "History Of Scotland",
-		"cover": "history-of-scotland.jpg",
-		"tags": [
-			"Doco",
-			"Scotland",
-			"BBC",
-			"British"
-		],
-		"synopsis": "A documentary charting the birth and growth of the Scottish nation.",
-		"seasons": "1",
-		"uri": "http://www.imdb.com/title/tt1352077/",
+		"uri": "http://www.imdb.com/title/tt1935700/",
 		"disk": "1"
 	},
 	{
 		"score": 7,
-		"name": "The Story Of India",
-		"cover": "story-of-india.jpg",
+		"name": "Wild Australia",
+		"cover": "wild-australia.jpg",
 		"tags": [
-			"Doco",
-			"BBC",
-			"British",
-			"Recommended"
+            "Doco"
 		],
-		"synopsis": "Michael Wood visits places and interviews experts all over India to cover the great chapters of the subcontinent's history.",
-		"seasons": "Mini-Series",
-		"uri": "http://www.imdb.com/title/tt1333053/",
+		"synopsis": "Explores the geography, flora and fauna of six spectacular Australian landscapes.",
+		"seasons": "1",
+		"uri": "http://www.imdb.com/title/tt6054236/",
 		"disk": "1"
-	},
-	{
-		"score": 1,
-		"name": "Ancient Greece",
-		"cover": "ancient-greece.jpg",
-		"tags": [
-			"Doco",
-			"BBC",
-			"British"
-		],
-		"synopsis": "Documentary examining the vibrant societies of ancient Greece that have had a profound impact on the modern world.",
-		"seasons": "Mini-Series",
-		"uri": "http://www.bbc.co.uk/history/ancient/greeks/",
-		"disk": "2"
-	},
-	{
-		"score": 8,
-		"name": "Wonders Of The Solar System",
-		"cover": "solar-system.jpg",
-		"tags": [
-			"Doco",
-			"BBC",
-			"British",
-			"Recommended"
-		],
-		"synopsis": "In this spellbinding series Professor Brian Cox visits the most extreme locations on Earth to explain how the laws of physics carved natural wonders across the solar system.",
-		"seasons": "Mini-Series",
-		"uri": "http://www.imdb.com/title/tt1611787/",
-		"disk": "1"
-	},
-	{
-		"score": 1,
-		"name": "Forces Of Nature",
-		"cover": "forces-of-nature.jpg",
-		"tags": [
-			"Doco",
-			"BBC",
-			"British"
-		],
-		"synopsis": "Professor Brian Cox combines some of the most spectacular sights on Earth with our deepest understanding of the universe to reveal how the planet's beauty is created by just a handful of forces.",
-		"seasons": "Mini-Series",
-		"uri": "http://www.imdb.com/title/tt5907228/",
-		"disk": "TBA"
-	},
-	{
-		"score": 1,
-		"name": "Coast Australia",
-		"cover": "coast-australia.jpg",
-		"tags": [
-			"Doco",
-			"Australia",
-			"BBC",
-			"British"
-		],
-		"synopsis": "UK Archaeologist and historian Neil Oliver arrives with his team to film the vast and spectacular coastline of Australia. It is the largest expedition the Coast team has undertaken.",
-		"seasons": "Mini-Series",
-		"uri": "http://www.imdb.com/title/tt2641254/",
-		"disk": "TBA"
-	},
-	{
-		"score": 1,
-		"name": "Masters Of The Pacific",
-		"cover": "masters-of-the-pacific.jpg",
-		"tags": [
-			"Doco",
-			"BBC",
-			"British"
-		],
-		"synopsis": "Archaeologist Dr Jago Cooper travels along the 1,400 mile coastline of Northwest America to explore how local tribes understanding of their environment allowed them to develop a resilient culture.",
-		"seasons": "Mini-Series",
-		"uri": "http://www.imdb.com/title/tt5941760/",
-		"disk": "TBA"
 	}
 ];
 

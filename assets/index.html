@@ -44,15 +44,16 @@
     			<div class="row">
     				<div class="input-field col s12 m6">
     					<select id="genre-list" class="icons">
-    					  <option value="*" disabled selected>What kind of TV Show would you like to watch?</option>
-    					  <option value="*" data-icon="images/glyphs/all-shows-glyph.png">All TV Shows</option>
+    					  <option value="*" disabled selected>What kind of show would you like to watch?</option>
+                          <option value="*" data-icon="images/glyphs/anything.png">Anything</option>
+                          <option value=".Movie" data-icon="images/glyphs/movie-glyph.png">Movies</option>
+    					  <option value=":not(.Movie)" data-icon="images/glyphs/all-shows-glyph.png">TV Shows</option>
     					  <option value=".British" data-icon="images/glyphs/british-glyph.png">British</option>
-    					  <option value=".Comedy" data-icon="images/glyphs/comedy-glyph.png">Comedy</option>
     					  <option value=".Crime" data-icon="images/glyphs/crime-glyph.png">Crime</option>
     					  <option value=".Recommended" data-icon="images/glyphs/recommended-glyph.png">Damian's Recommended Top Picks</option>
     					  <option value=".Doco" data-icon="images/glyphs/doco-glyph.png">Documentaries</option>
     					  <option value=".Drama" data-icon="images/glyphs/drama-glyph.png">Dramas</option>
-    					  <option value=".Sci-fi" data-icon="images/glyphs/sci-fi-glyph.png">Science Fiction and Supernatural</option>
+    					  <option value=".Sci-fi, .Supernatural" data-icon="images/glyphs/sci-fi-glyph.png">Science Fiction and Supernatural</option>
     					</select>
     				</div>
                     <div id="disk-selector-div" class="col s12 m6">
@@ -62,7 +63,7 @@
                         <div>
             				<input class="with-gap blue" name="disk-group" type="radio" id="disk-all-radio" value="*" /><label for="disk-all-radio">All</label>
                             <input class="with-gap" name="disk-group" type="radio" id="disk-1-radio" value=".1" /><label for="disk-1-radio">Disk 1</label>
-                            <input class="with-gap" name="disk-group" type="radio" id="disk-2-radio" value=".2" /><label for="disk-2-radio">Disk 2</label>
+                            <input class="with-gap" name="disk-group" type="radio" id="disk-2-radio" value=".2" disabled="disabled" /><label for="disk-2-radio">Disk 2</label>
                             <input class="with-gap" name="disk-group" type="radio" id="disk-3-radio" value=".3" disabled="disabled" /><label for="disk-3-radio">Disk 3</label>
                             <input class="with-gap" name="disk-group" type="radio" id="disk-4-radio" value=".4" disabled="disabled" /><label for="disk-4-radio">Disk 4</label>
                         </div>
